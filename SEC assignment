@@ -1,0 +1,21 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For dummy text
+
+% Set up header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\textbf{Title of Document}} % Header in center
+\fancyfoot[L]{MAKAUT}             % Footer left
+\fancyfoot[R]{Page \thepage}              % Footer right
+
+\begin{document}
+
+\section*{Section 1}
+\lipsum[1] % Generates dummy text
+
+\section*{Section 2}
+\lipsum[2] % Generates another dummy paragraph
+
+\end{document}
